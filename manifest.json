@@ -1,7 +1,7 @@
 {
 	"id": "uncheck-all",
 	"name": "Uncheck All",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "This plugin adds a command to uncheck all checkboxes in the current note.",
 	"author": "Shahar Har-Shuv",
