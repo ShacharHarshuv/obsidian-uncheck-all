@@ -1,7 +1,7 @@
 {
 	"id": "uncheck-all",
 	"name": "Uncheck All",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Uncheck all checkboxes in the current note using one command",
 	"author": "Shahar Har-Shuv",
