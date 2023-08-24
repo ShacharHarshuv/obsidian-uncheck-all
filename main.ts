@@ -2,7 +2,7 @@ import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Set
 
 const checkboxRegex = /((?:\n|^)\s*)- \[.\]/g;
 
-export default class MyPlugin extends Plugin {
+export default class UncheckAllPlugin extends Plugin {
   private _uncheckAll() {
     const activeLeaf = this.app.workspace.activeLeaf;
     if (activeLeaf?.view instanceof MarkdownView) {
