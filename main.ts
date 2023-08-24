@@ -14,7 +14,7 @@ export default class UncheckAllPlugin extends Plugin {
         const doc = editor.getDoc();
         const cursorPosition = doc.getCursor();
         const entireContent = doc.getValue();
-        const updatedContent = entireContent.replace(/((?:\n|^)\s*)- \[.\]/g, "$1- [ ]");
+        const updatedContent = entireContent.replace(/((?:\n|^)\s*(?:-|[0-9]+\.?)) \[.\]/g, "$1 [ ]");
         doc.setValue(updatedContent);
         doc.setCursor(cursorPosition);
       },
