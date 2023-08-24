@@ -3,7 +3,7 @@
 	"name": "Uncheck All",
 	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
-	"description": "This plugin adds a command to uncheck all checkboxes in the current note.",
+	"description": "Uncheck all checkboxes in the current note using one command",
 	"author": "Shahar Har-Shuv",
 	"authorUrl": "https://github.com/ShacharHarshuv",
 	"isDesktopOnly": false
